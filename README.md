@@ -55,7 +55,7 @@ These instructions are based on [Custom SDK Network Integration Guide](https://d
 In the MAX Dashboard, select [MAX > Mediation > Manage > Networks](https://dash.applovin.com/o/mediation/networks/). Then click **Click here to add a Custom Network** at the bottom of the page. The Create Custom Network page appears. Add the information about Verve SDK custom network:
 * *Network Type:* choose *SDK*.
 * *Name:* *Verve HyBid SDK Waterfall Mediation*
-* iOS Adapter Class Name:* `AppLovinMediationVerveCustomNetworkAdapter`
+* *iOS Adapter Class Name:* `AppLovinMediationVerveCustomNetworkAdapter`
 * *Android / Fire OS Adapter Class Name:* `net.pubnative.adapters.applovin.AppLovinMediationVerveCustomNetworkAdapter`
 
 **Please note:** iOS and Android Class Names must be entered _exactly_ as indicated above.
