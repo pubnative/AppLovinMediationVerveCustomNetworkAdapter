@@ -22,6 +22,14 @@
 
 #import "AppLovinMediationVerveCustomNetworkAdapter.h"
 
+#if __has_include(<HyBid/HyBid-Swift.h>)
+    #import <UIKit/UIKit.h>
+    #import <HyBid/HyBid-Swift.h>
+#else
+    #import <UIKit/UIKit.h>
+    #import "HyBid-Swift.h"
+#endif
+
 #define VERVE_ADAPTER_VERSION @"2.12.1.0"
 #define MAX_MEDIATION_VENDOR @"m"
 #define PARAM_APP_TOKEN @"pn_app_token"
