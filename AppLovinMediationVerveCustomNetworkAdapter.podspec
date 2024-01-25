@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AppLovinMediationVerveCustomNetworkAdapter"
-  spec.version      = "2.21.0-beta1.0"
+  spec.version      = "2.21.0-beta2.0"
   spec.summary      = "HyBid iOS SDK Custom Network Adapters (Mediation) for AppLovin"
   spec.description = <<-DESC
                      Supported ad formats:
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :text => <<-LICENSE
     MIT License
 
-    Copyright (c) 2023 PubNative GmbH
+    Copyright (c) 2024 PubNative GmbH
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -35,11 +35,11 @@ Pod::Spec.new do |spec|
 
   spec.authors      = { "Can Soykarafakili" => "can.soykarafakili@pubnative.net", "Eros Garcia Ponte" => "eros.ponte@pubnative.net", "Fares Benhamouda" => "fares.benhamouda@pubnative.net", "Orkhan Alizada" => "orkhan.alizada@pubnative.net", "Jose Contreras" => "jose.contreras@verve.com", "Aysel Abdullayeva" => "aysel.abdullayeva@verve.com" }
   spec.platform     = :ios, '10.0'
-  spec.source       = { :git => "https://github.com/pubnative/AppLovinMediationVerveCustomNetworkAdapter.git", :tag => "2.21.0-beta1.0" }
+  spec.source       = { :git => "https://github.com/pubnative/AppLovinMediationVerveCustomNetworkAdapter.git", :tag => "2.21.0-beta2.0" }
 
   spec.source_files = 'AppLovinAdapters/**/*.{swift,h,m}'
   spec.static_framework = true
 
-  spec.dependency 'HyBid', '2.21.0-beta1'
+  spec.dependency 'HyBid', '2.21.0-beta2'
   spec.dependency 'AppLovinSDK', '>= 11.1.2'
 end
