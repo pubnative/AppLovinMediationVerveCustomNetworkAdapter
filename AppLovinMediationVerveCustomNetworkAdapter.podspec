@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
     }
 
   spec.authors      = { "Can Soykarafakili" => "can.soykarafakili@pubnative.net", "Eros Garcia Ponte" => "eros.ponte@pubnative.net", "Fares Benhamouda" => "fares.benhamouda@pubnative.net", "Orkhan Alizada" => "orkhan.alizada@pubnative.net", "Jose Contreras" => "jose.contreras@verve.com", "Aysel Abdullayeva" => "aysel.abdullayeva@verve.com" }
-  spec.platform     = :ios, '10.0'
+  spec.platform     = :ios, '11.0'
   spec.source       = { :git => "https://github.com/pubnative/AppLovinMediationVerveCustomNetworkAdapter.git", :tag => "2.21.0.1" }
 
   spec.source_files = 'AppLovinAdapters/**/*.{swift,h,m}'
