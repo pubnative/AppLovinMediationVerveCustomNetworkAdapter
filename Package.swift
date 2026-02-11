@@ -21,8 +21,8 @@ let package = Package(
         .target(
             name: "AppLovinMediationVerveCustomNetworkAdapter",
             dependencies: [
-                .product(name: "HyBid"),
-                .product(name: "AppLovinSDK")
+                .product(name: "HyBid", package: "hybid-ios-spm-sdk"),
+                .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package")
             ],
             path: "AppLovinAdapters",
             sources: [
