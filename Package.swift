@@ -29,6 +29,9 @@ let package = Package(
                 "AppLovinMediationVerveCustomNetworkAdapter.m"
             ],
             publicHeadersPath: ".",
+            cSettings: [
+                .headerSearchPath(".")
+            ],
             linkerSettings: [
                 .unsafeFlags(["-ObjC"])
             ]
