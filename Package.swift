@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/vervegroup/hybid-ios-spm-sdk.git", .upToNextMajor(from: "3.7.1")),
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .upToNextMajor(from: "13.4.0"))
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .upToNextMajor(from: "10.3.6"))
     ],
     targets: [
         .target(
