@@ -31,9 +31,6 @@ let package = Package(
             publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath(".")
-            ],
-            linkerSettings: [
-                .unsafeFlags(["-ObjC"])
             ]
         )
     ]
