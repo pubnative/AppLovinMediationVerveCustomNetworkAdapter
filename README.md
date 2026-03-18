@@ -46,6 +46,19 @@ target 'YOUR_PROJECT_NAME' do
 end
 ```
 
+#### Swift Package Manager
+The Swift Package Manager is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
+
+To integrate the AppLovinMediationVerveCustomNetworkAdapter into your Xcode project using Swift Package Manager:
+
+Add it to the dependencies of your Package.swift:
+```swift
+dependencies: [
+    .package(url: "https://github.com/pubnative/AppLovinMediationVerveCustomNetworkAdapter", branch:"master")
+]
+```
+Enable the -ObjC flag in Xcode: click on your project settings, go to Build Settings, search for Other Linker Flags and add -ObjC.
+
 ## Custom SDK Network Integration Guide for Waterfall Mediation
 This page gives you step-by-step instructions to show you how you enable Verve HyBid SDK as an ad network.
 
